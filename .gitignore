@@ -1,0 +1,5 @@
+.vs
+.vscode
+src/client_secret.json
+token_gmail_v1.pickle
+src/__pycache__
