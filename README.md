@@ -18,7 +18,7 @@ https://docs.docker.com/docker-for-windows/install/
     docker pull antonelli/auto-ingresso:latest
 
 ## Rodando
-    docker run -ti antonelli/auto-ingresso:latest
+    docker run -ti --cpus="2" --memory="200m" antonelli/auto-ingresso:latest
 
 ## Exemplo de Uso
     Digite sua cidade(ex: joao-pessoa): jundiai
